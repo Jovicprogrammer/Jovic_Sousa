@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Agenor, Narrow } from './fonts';
+import { Agenor } from './fonts';
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${Agenor.variable} `}
+        className={`${Agenor.className} `}
       >
         {children}
       </body>

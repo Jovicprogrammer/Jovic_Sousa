@@ -4,7 +4,7 @@ import localFont from 'next/font/local';
 export const Narrow = localFont({
 src: [
     {
-    path: './Fonts/arial_narrow_7.ttf',
+    path: './fonts/arial_narrow_7.ttf',
     weight: '300',
     },
 
@@ -16,7 +16,7 @@ src: [
 export const Agenor = localFont({
 src: [
     {
-    path: './Fonts/AgenorNeue-Regular.otf',
+    path: './fonts/AgenorNeue-Regular.otf',
     weight: '300',
     },
 
