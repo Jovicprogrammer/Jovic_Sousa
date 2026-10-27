@@ -2,12 +2,13 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
+import { Agenor, Narrow } from "../app/fonts"
 
 export default function Navbar() {
 
     return (
 
-        <nav className={`fixed bg-blue-700 z-[500] left-0 right-0 mx-auto max-w-4xl flex flex-col sm:flex-row items-center justify-center p-2 rounded mt-155 }`}>
+        <nav className={`fixed bg-blue-700 z-[500] left-0 right-0 mx-auto max-w-4xl flex flex-col sm:flex-row items-center justify-center p-2 rounded mt-155 ${Agenor.className}}`}>
 
             <div className="flex gap-6 items-center justify-center h-auto text-2xl">
                 <Link href="/" className="hover:underline transition ">Início</Link>
@@ -20,5 +21,5 @@ export default function Navbar() {
         </nav>
 
     )
-    
+
 }
